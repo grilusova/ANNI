@@ -9,6 +9,18 @@ html,body{
     height: 3.5rem;
 }
 
+.bi-person{
+    color: #222222;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+.bi-bag{
+    color: #222222;
+    font-size: 1.6rem;
+    padding-left: 10px;
+}
+
 .navbar {
     font-size: 1.15rem;
     font-weight: 400;
@@ -60,6 +72,64 @@ html,body{
     font-weight: 450;
     border-radius: 60px;
 }
+
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(246, 230, 230);
+    color: #222;
+    font-weight: 450;
+
+}
+
+.leftside, .rightside{
+    height: 100vh;
+    width: 100%;
+    padding-top: 250px;
+    padding-left: 150px;
+}
+
+.bi{
+    padding-right: 10px;
+}
+
+.rightside{
+    background-color: #d5d5d5;
+}
+
+.rightside p{
+    font-size: 17px;
+    text-align: left;
+}
+
+.rightside h5{
+    text-align: left;
+    font-size: 15px;
+    color: #3f3f3f;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family: Candara, sans-serif;
+}
+
+.rightside p.nadpis,
+.leftside p.nadpis{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*.login{
+    padding-top: 150px;
+    padding-left: 60px;
+}
+
+.register{
+    padding-left: 80px;
+    font-size: 120%;
+}*/
 
 .btn0:hover{
     background-color: lightpink;
@@ -120,7 +190,7 @@ hr.light{
 }
 
 .card:hover{
-    border: solid ;
+    border: solid;
     border-color: rgb(246, 230, 230);
 }
 
