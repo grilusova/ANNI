@@ -198,8 +198,8 @@ hr.light{
 }
 
 .card:hover{
-    border: 1px solid;
-    border-color: rgb(246, 230, 230);
+    border: 2px solid;
+    color: rgb(246, 230, 230);
 }
 
 
@@ -262,9 +262,10 @@ hr.light{
     background: rgb(246, 230, 230);
     color: #222;
     margin-right: 5px;
+}
 
-
-
+h1{
+    margin-bottom: 40px;
 }
 
 
